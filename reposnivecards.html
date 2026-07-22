@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+ 
+        .card {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+ 
+        .card:hover {
+            transform: translateY(-10px);
+        }
+ 
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+ 
+        .card h2 {
+            margin: 16px;
+            font-size: 1.5em;
+        }
+ 
+        .card p {
+            margin: 16px;
+            font-size: 1em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="images/flower.jpg" alt="">
+            <h2>Card Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo optio voluptate autem quas nihil aliquam voluptatum nesciunt dolores odit aliquid deleniti soluta asperiores nisi at voluptates possimus, hic dignissimos iusto.</p>
+ 
+        </div>
+        <div class="card">
+            <img src="images/flower.jpg" alt="">
+            <h2>Card Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo optio voluptate autem quas nihil aliquam voluptatum nesciunt dolores odit aliquid deleniti soluta asperiores nisi at voluptates possimus, hic dignissimos iusto.</p>
+ 
+ 
+    </div>
+    <div class="card">
+        <img src="images/flower.jpg" alt="">
+        <h2>Card Title</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo optio voluptate autem quas nihil aliquam voluptatum nesciunt dolores odit aliquid deleniti soluta asperiores nisi at voluptates possimus, hic dignissimos iusto.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>
+        Responsive Images based on screen width
+    </h2>
+    <picture>
+        <!-- large image -->
+        <source media="(min-width:900px)" srcset="images/1.jpg">
+        <source media="(min-width:600px)" srcset="images/2.jpg">
+        <img src="images/1.jpg" width="400px">
+ 
+    </picture>
+ 
+    <img src="images/1.jpg">
+    <!-- screen reader will not describe this image  -->
+ <img src="images/6.jpg" alt="Phone">
+ 
+<label>Enter your name </label>
+<!-- screen reader don't know this label -->
+<label for="name">Enter your name</label>
+ 
+</body>
+</html>

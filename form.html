@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+<div class="card">
+    <h2>Registration Form</h2>
+    <label>Name</label><input type="text" id="name">
+    <label>Email</label><input type="email" id="email">
+    <label>Phone</label><input type="number" id="phone">
+    <button id="submit-btn">Submit</button>
+
+    <div id="error-message"></div>
+
+    <div id="success-section">
+        <p style="color: green; font-weight: bold;">Form submitted successfully.</p>
+        <div class="details-box">
+            <strong>Submitted Details</strong>
+            <p>Name: <span id="disp-name"></span></p>
+            <p>Email: <span id="disp-email"></span></p>
+            <p>Phone: <span id="disp-phone"></span></p>
+        </div>
+    </div>
+</div>
+
+<script src="form.js"></script>
+</body>
+</html>

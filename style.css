@@ -1,0 +1,30 @@
+body{
+    background-color: lightblue;
+    
+}
+h1{
+    font-size:  100px;
+}
+p{
+    display: block;
+}
+nav{
+    display: flex;
+    gap:20px;
+}
+
+@media(max-width: 600px){
+    body{
+        background-color: lightgreen;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        display: none;
+    }
+    nav{
+        flex-direction: column;
+        gap:10px;
+    }
+}

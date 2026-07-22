@@ -1,0 +1,16 @@
+body{
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+@media(orientation: landscape){
+    body{
+        background-color: lightcoral;
+    }
+}
+@media(orientation: potrait){
+    body{
+        background-color: lightyellow;
+    }
+}

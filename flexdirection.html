@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            background-color: lightblue;
+        }
+        .container{
+            display: flex;
+            gap:20px;
+        }
+        .box{
+            padding: 20px;
+            background-color: lightgreen;
+        }
+        @media(min-width: 600px) and (orientation: landscape){
+            body{
+                background-color: lightyellow;
+            }
+        }
+        @media(orientation: landscape){
+            .container{
+                flex-direction: row;
+            }
+        }
+        @media(orientation: portrait){
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class ="container">
+        <div class ="box">
+            Html
+        </div>
+        <div class ="box">
+            Css
+        </div>
+        <div class ="box">
+            Responsive Web design
+        </div>
+    </div>
+    
+</body>
+</html>
